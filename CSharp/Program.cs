@@ -69,8 +69,8 @@ namespace PerformanceTests
                 var worstAvg = worstTimes.Average();
 
                 Console.WriteLine($"{test.Method.Name} performance:");
-                Console.WriteLine($"\tBest case: {Math.Round(bestAvg, DecimalPlaces)} ns");
-                Console.WriteLine($"\tAverage case: {avgAvg,DecimalPlaces} ms");
+                Console.WriteLine($"\tBest case: {bestAvg,DecimalPlaces} ns");
+                Console.WriteLine($"\tAverage case: {avgAvg,DecimalPlaces} ns");
                 Console.WriteLine($"\tWorst case: {worstAvg,DecimalPlaces} ns");
             }
         }
