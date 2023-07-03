@@ -1,0 +1,6 @@
+# Visual Studio
+**/.vs/
+
+# C# generated files
+CSharp/bin/
+CSharp/obj/
